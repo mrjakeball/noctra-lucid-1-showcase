@@ -100,4 +100,4 @@
 
 <p align="center">
   <a href="https://github.com/mrjakeball"><strong>Профиль GitHub ↑</strong></a>
-</p></p>
+</p>
