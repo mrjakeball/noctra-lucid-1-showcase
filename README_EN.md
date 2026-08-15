@@ -100,4 +100,4 @@ If WebGL cannot be rendered correctly, the experience should degrade instead of 
 
 <p align="center">
   <a href="https://github.com/mrjakeball"><strong>GitHub profile ↑</strong></a>
-</p></p>
+</p>
