@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">NOCTRA / LUCID-1</title>
+  <desc id="desc">Black and violet technical banner with a layered object motif</desc>
+  <defs>
+    <radialGradient id="halo"><stop stop-color="#8B5CF6" stop-opacity=".26"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050609"/><stop offset="1" stop-color="#11101A"/></linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+  <circle cx="925" cy="130" r="126" fill="url(#halo)"/>
+  <g transform="translate(925 130)" fill="none">
+    <circle r="88" stroke="#8B5CF6" stroke-width="2" opacity=".55"/>
+    <circle r="64" stroke="#C4B5FD" stroke-width="5" stroke-dasharray="48 16" opacity=".7"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/></circle>
+    <circle r="40" stroke="#38BDF8" stroke-width="2" stroke-dasharray="10 12" opacity=".55"/>
+    <path d="M-24-12 0-30 29-11 22 24-14 31-32 4Z" fill="#8B5CF6" opacity=".5" stroke="#DDD6FE"/>
+  </g>
+  <path d="M34 214h650" stroke="#2A2735"/><path d="M684 214h178" stroke="#8B5CF6" stroke-width="2" opacity=".7"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="54" y="52" fill="#777185" font-size="15" letter-spacing="3">OBJECT STUDY · LAYER / SIGNAL / MOTION</text>
+    <text x="54" y="126" fill="#F0F0F5" font-size="45" font-weight="700" letter-spacing="2">NOCTRA / LUCID-1</text>
+    <text x="57" y="164" fill="#C4B5FD" font-size="20">eight scenes · one technical object</text>
+    <text x="969" y="52" fill="#A78BFA" font-size="15">WEBGL STUDY</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="258" rx="17" fill="none" stroke="#26232F" stroke-width="2"/>
+</svg>
