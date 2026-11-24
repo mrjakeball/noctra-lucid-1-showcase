@@ -19,9 +19,13 @@ Six procedural layers form the model. PBR materials and directed light reveal th
 
 A mobile dossier accompanies the scene. The project includes a lighter rendering configuration, reduced-motion support and a fallback for devices without WebGL.
 
-## Original images
+## Three views of LUCID-1
 
-[Device silhouette](assets/cover.jpg) · [Exploded view](assets/screen-architecture-desktop.jpg) · [Mobile dossier](assets/screen-dossier-mobile.jpg)
+**[Silhouette](assets/cover.jpg)** · A rim of light defines the outline of the object in its opening view.
+
+**[Construction](assets/screen-architecture-desktop.jpg)** · The exploded view reveals how the layers sit along the central axis.
+
+**[Dossier](assets/screen-dossier-mobile.jpg)** · The narrow-screen dossier presents the object as a sequence of readable text sections.
 
 <details>
 <summary>View the gallery</summary>
