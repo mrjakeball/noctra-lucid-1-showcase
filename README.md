@@ -1,103 +1,31 @@
-<p align="center">
-  <img src="./assets/header.svg" alt="NOCTRA / LUCID-1" width="100%" />
-</p>
+**RU** · [EN](README_EN.md)　 /　 [Профиль](https://github.com/mrjakeball) · [Каталог проектов](https://github.com/mrjakeball/portfolio)
 
-<p align="center">
-  <a href="./README.md"><img src="https://img.shields.io/badge/РУССКИЙ-8B5CF6?style=for-the-badge" alt="Русский" height="29" /></a>
-  &nbsp;
-  <a href="./README_EN.md"><img src="https://img.shields.io/badge/ENGLISH-21262D?style=for-the-badge" alt="English" height="29" /></a>
-</p>
+# NOCTRA / LUCID-1
 
-<p align="center">
-  <a href="https://github.com/mrjakeball/portfolio"><img src="https://img.shields.io/badge/📚_ВСЕ_ПРОЕКТЫ-21262D?style=for-the-badge" alt="Все проекты" height="27" /></a>
-  <a href="https://github.com/mrjakeball"><img src="https://img.shields.io/badge/↩_ПРОФИЛЬ-21262D?style=for-the-badge&logo=github&logoColor=white" alt="Профиль" height="27" /></a>
-</p>
+Восемь сцен раскрывают устройство вымышленного объекта. Прокрутка ведёт от силуэта к послойному разбору конструкции и техническому досье.
 
----
+![NOCTRA / LUCID-1 — Общий вид устройства](assets/social-preview.jpg)
 
-# 🟣 NOCTRA / LUCID-1
+Концепт, проверенный в WebKit · Публичная витрина приватного проекта  
+React · Three.js · React Three Fiber · GSAP · Web Audio
 
-> **Интерактивное исследование вымышленного устройства через процедурный 3D, свет, материалы, звук и прокрутку.**
+## Как собрана сцена
 
-<p>
-  <img src="https://img.shields.io/badge/React-21262D?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/R3F-21262D?style=flat-square&logo=threedotjs&logoColor=8B5CF6" alt="React Three Fiber" />
-  <img src="https://img.shields.io/badge/Three.js-21262D?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
-  <img src="https://img.shields.io/badge/GSAP-21262D?style=flat-square&logo=greensock&logoColor=88CE02" alt="GSAP" />
-  <img src="https://img.shields.io/badge/Web_Audio-21262D?style=flat-square&logo=webauthn&logoColor=58A6FF" alt="Web Audio" />
-</p>
+Шесть слоёв модели формируются процедурно. Материалы PBR и направленный свет показывают внутреннюю структуру, а GSAP связывает движение с прокруткой. Web Audio добавляет звуковые акценты.
 
-> ℹ️ NOCTRA и LUCID-1 — рабочие названия самостоятельного вымышленного концепта. Подробнее — в [NOTICE](./NOTICE.md).
+Для мобильного экрана предусмотрено отдельное досье. Есть облегчённая конфигурация, режим уменьшенного движения и запасной вариант отображения для устройств без WebGL.
 
-## 🎯 Задача проекта
+## Исходные изображения
 
-Не просто показать 3D-модель, а построить вокруг неё небольшой управляемый рассказ.
+[Общий вид устройства](assets/cover.jpg) · [Послойный разбор](assets/screen-architecture-desktop.jpg) · [Досье на телефоне](assets/screen-dossier-mobile.jpg)
 
-Пользователь постепенно знакомится с устройством — от общего силуэта до послойного технического разбора.
+<details>
+<summary>Развернуть галерею</summary>
 
-## 📌 Коротко
+<a href="assets/cover.jpg"><img src="assets/cover.jpg" width="560" alt="Общий вид устройства"></a>
+<a href="assets/screen-architecture-desktop.jpg"><img src="assets/screen-architecture-desktop.jpg" width="560" alt="Послойный разбор"></a>
+<a href="assets/screen-dossier-mobile.jpg"><img src="assets/screen-dossier-mobile.jpg" width="270" alt="Досье на телефоне"></a>
 
-| | |
-| :--- | :--- |
-| 🧩 **Формат** | 8 связанных web-сцен |
-| 🧊 **Объект** | Процедурная 3D-модель |
-| 🎞️ **Движение** | Scroll-driven animation |
-| 🔊 **Звук** | Web Audio |
-| ✅ **Проверка** | Desktop + mobile-width WebKit |
-| 🔒 **Исходники** | Не включены в витрину |
+</details>
 
-## 🖼️ Сцены
-
-<p align="center">
-  <a href="./assets/cover.jpg"><img src="./assets/cover.jpg" alt="Главная сцена LUCID-1" width="700" /></a>
-</p>
-
-<p align="center">
-  <a href="./assets/screen-architecture-desktop.jpg"><img src="./assets/screen-architecture-desktop.jpg" alt="Архитектура LUCID-1" width="700" /></a>
-</p>
-
-<p align="center">
-  <a href="./assets/screen-dossier-mobile.jpg"><img src="./assets/screen-dossier-mobile.jpg" alt="Мобильное техническое досье LUCID-1" width="220" /></a>
-</p>
-
-## 🧭 Сценарий исследования
-
-1. 🌑 знакомство с силуэтом;
-2. 💡 раскрытие объекта через свет;
-3. 🧱 переход к материалам и структуре;
-4. 💥 послойный инженерный разбор;
-5. 📑 техническое досье;
-6. 🎞️ переходы между сценами через прокрутку.
-
-## 🧊 Визуальная система
-
-- шестислойная процедурная модель;
-- PBR-материалы;
-- управляемое освещение;
-- звуковые акценты;
-- прокрутка как временная шкала;
-- отдельный mobile dossier.
-
-## ⚡ Производительность
-
-### 🪶 Облегчённые параметры
-
-Для менее производительных устройств предусмотрена более лёгкая конфигурация сцены.
-
-### ♿ Reduced motion
-
-Пользовательские настройки уменьшенной анимации учитываются отдельно.
-
-### 🧯 WebGL fallback
-
-При невозможности нормально отобразить WebGL интерфейс не должен превращаться в полностью сломанную страницу.
-
----
-
-<p align="center">
-  <a href="https://github.com/mrjakeball/portfolio"><img src="https://img.shields.io/badge/←_КАТАЛОГ_ПРОЕКТОВ-8B5CF6?style=for-the-badge" alt="Каталог проектов" height="30" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/mrjakeball"><strong>Профиль GitHub ↑</strong></a>
-</p>
+[Примечание о проекте](NOTICE.md) · [Профиль](https://github.com/mrjakeball) · [Каталог проектов](https://github.com/mrjakeball/portfolio)
